@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane fx:id="rootContainerView" alignment="center" gridLinesVisible="true" hgap="0" minHeight="-Infinity"
+          minWidth="-Infinity" prefHeight="40.0" prefWidth="700.0" vgap="0" xmlns="http://javafx.com/javafx/8.0.121"
+          xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <HBox fx:id="mColumn1" alignment="CENTER" GridPane.columnIndex="0" GridPane.halignment="CENTER"
+              GridPane.rowIndex="0">
+            <ImageView fx:id="mColumn1LeftImg" cache="true" smooth="true"/>
+            <Label fx:id="mColumn1Txt" alignment="CENTER" maxWidth="Infinity" text="Text 1" textAlignment="CENTER"/>
+            <ImageView fx:id="mColumn1MsgImg" cache="true" fitHeight="25.0" fitWidth="25.0" smooth="true"/>
+            <ImageView fx:id="mColumn1RightImg" cache="true" smooth="true"/>
+            <GridPane.margin>
+                <Insets left="10.0" right="10.0"/>
+            </GridPane.margin>
+
+        </HBox>
+
+        <HBox fx:id="mColumn2" alignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER"
+              GridPane.rowIndex="0">
+            <ImageView fx:id="mColumn2LeftImg" cache="true" smooth="true"/>
+            <Label fx:id="mColumn2Txt" alignment="CENTER" maxWidth="Infinity" text="Text 1" textAlignment="CENTER"/>
+            <ImageView fx:id="mColumn2MsgImg" cache="true" smooth="true" fitHeight="25.0" fitWidth="25.0"/>
+            <ImageView fx:id="mColumn2RightImg" cache="true" smooth="true"/>
+            <GridPane.margin>
+                <Insets left="10.0" right="10.0"/>
+            </GridPane.margin>
+        </HBox>
+
+        <HBox fx:id="mColumn3" alignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER"
+              GridPane.rowIndex="0">
+            <ImageView fx:id="mColumn3LeftImg" cache="true" smooth="true"/>
+            <Label fx:id="mColumn3Txt" alignment="CENTER" maxWidth="Infinity" text="Text 1" textAlignment="CENTER"/>
+            <ImageView fx:id="mColumn3MsgImg" cache="true" smooth="true" fitHeight="25.0" fitWidth="25.0"/>
+            <ImageView fx:id="mColumn3RightImg" cache="true" smooth="true"/>
+            <GridPane.margin>
+                <Insets left="10.0" right="10.0"/>
+            </GridPane.margin>
+        </HBox>
+
+    </children>
+    <columnConstraints>
+        <ColumnConstraints hgrow="ALWAYS" percentWidth="33.33"/>
+        <ColumnConstraints hgrow="ALWAYS" percentWidth="33.33"/>
+        <ColumnConstraints hgrow="ALWAYS" percentWidth="33.33"/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints vgrow="ALWAYS"/>
+    </rowConstraints>
+
+</GridPane>

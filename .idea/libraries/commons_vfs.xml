@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="commons-vfs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/commons-vfs.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
